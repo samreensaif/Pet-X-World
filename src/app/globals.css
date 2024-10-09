@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite';
+
+
+
+  
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+  
+  /* Custom CSS for slider dots */
+  .slick-dots {
+    bottom: -50px; /* Adjust vertical positioning */
+    display: flex !important; /* Use flex to prevent overlap */
+    justify-content: center; /* Center the dots */
+    gap: 8px; /* Space between dots */
+  }
+  
+  .slick-dots li {
+    margin: 0; /* Remove margin */
+    
+  }
+  
+  .slick-dots li button {
+    width: 12px; /* Set width */
+    height: 12px; /* Set height */
+    border-radius: 50%; /* Make buttons circular */
+    background: gray; /* Background color for inactive dots */
+  }
+  
+  .slick-dots li.slick-active button {
+    background: #807c7c; /* Color for active dot */
+  }
+  
+  /* Ensure the container has enough height */
+  .slider-container {
+    
+    position: relative; /* To position the dots correctly */
+    padding-bottom: 60px; /* Add bottom padding for dots */
+  }
+ 
+  .green{
+    background-color: #baec7b;
+  }
+  .purple{
+    background-color: #D7B8FF;
+  }
