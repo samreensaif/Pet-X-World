@@ -72,22 +72,25 @@ function Footer() {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-center w-full md:w-[85%] mt-20 bg-red-200 rounded-3xl p-4 md:p-8">
-        <div className="w-full md:w-[500px]">
-          <Image src="/assets/dogncat.png" width={500} height={500} alt="vet" className="object-contain" />
-        </div>
-        <div className="w-full md:w-[434px] text-center md:text-left mt-4 md:mt-40">
-          <h1 className="text-2xl md:text-5xl text-slate-800 font-bold">
-            Give your pet the best - Contact us!
-          </h1>
-        </div>
-        <div className="relative mt-8 md:mt-40">
+  <div className="w-full md:w-[500px]">
+    <Image src="/assets/dogncat.png" width={500} height={500} alt="vet" className="object-contain" />
+  </div>
+  <div className="w-full md:w-[434px] text-center md:text-left mt-4 md:mt-40">
+    <h1 className="text-2xl md:text-5xl text-slate-800 font-bold">
+      Give your pet the best - Contact us!
+    </h1>
+  </div>
+  <div className="relative mt-8 md:mt-[450px] md:right-[400px]">
+  <div className="mt-5 md:mt-0 max-w-lg max-h-lg"> 
           <Button title={"Book an appointment"} />
-          <p className="mt-4 md:mt-0 text-center text-sm md:text-base hover:text-purple-800 hover:cursor-pointer">
-            Browse all services
-          </p>
-          <Image src="/assets/arrow.svg" width={20} height={20} alt="arrow" className=" hidden mt-2 md:mt-0" />
         </div>
-      </div>
+    <p className="mt-4 md:mt-4  text-sm md:text-base md:ml-5 hover:text-purple-800 hover:cursor-pointer">
+      Browse all services
+    </p>
+    <Image src="/assets/arrow.svg" width={20} height={20} alt="arrow" className="hidden mt-2 md:mt-0" />
+  </div>
+</div>
+
     </>
   );
 }

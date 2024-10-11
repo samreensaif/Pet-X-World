@@ -179,7 +179,7 @@ function Hero() {
                 Lorem ipsum dolor sit amet consectetur adipiselit sed do tempor
                 incididunt ut labore et dolore magna aliqua ut enim.
               </p>
-              <Button title={"Book an appointment"} className="text-base sm:text-lg lg:text-lg xl:text-xl px-4 sm:px-6 xl:px-8"/>
+              <Button title={"Book an appointment"} />
             </div>
           </div>
           <div>
