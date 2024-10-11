@@ -54,8 +54,9 @@ function Navbar() {
         </li>
       </ul>
     </div>
-    <Button title={"Book an appointment"}/>
-    
+    <div className="mt-5 md:mt-0"> {/* Adds margin-top only on small screens */}
+          <Button title={"Book an appointment"} />
+        </div>
   </div>
 </nav>
 

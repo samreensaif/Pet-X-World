@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from "../components/button/Button";
 import Card from "../components/card/Card";
 import About from "../about/page";
+import Ourvets from "../ourVets/page";
 
 
 function Hero() {
@@ -55,7 +56,7 @@ function Hero() {
             <h2 className="text-3xl md:text-5xl text-slate-800">
               Our pet care services
             </h2> 
-            <p className="my-5 md:my-10 text-justify">
+            <p className="my-5 px-3 md:my-10 text-justify">
               Lorem ipsum dolor sit amet consectetur adipiselit sed do
               tempor incididunt ut labore et dolore magna aliqua ut enim.
             </p>
@@ -169,17 +170,18 @@ function Hero() {
               alt="dog"
               className="w-full md:w-auto"
             />
-            <div className="w-full md:w-[434px]">
-              <h1 className="text-3xl md:text-5xl text-slate-800 font-bold text-center md:text-left">
+            <div className="w-full md:w-[434px] text-center md:text-left">
+              <h1 className="text-3xl md:text-5xl text-slate-800 font-bold ">
                 Schedule your appointment today!
               </h1>
               <p className="my-5 md:my-10 text-sm md:text-base">
                 Lorem ipsum dolor sit amet consectetur adipiselit sed do tempor
                 incididunt ut labore et dolore magna aliqua ut enim.
               </p>
-              <Button title={"Book an appointment"} />
+              <Button title={"Book an appointment"} className="text-base sm:text-lg lg:text-lg xl:text-xl px-4 sm:px-6 xl:px-8"/>
             </div>
           </div>
+            <Ourvets/>
         </div>
       </div>
     </>

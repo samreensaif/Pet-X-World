@@ -82,7 +82,7 @@ function Footer() {
         </div>
         <div className="relative mt-8 md:mt-40">
           <Button title={"Book an appointment"} />
-          <p className="mt-4 md:mt-0 text-sm md:text-base hover:text-purple-800 hover:cursor-pointer">
+          <p className="mt-4 md:mt-0 text-center text-sm md:text-base hover:text-purple-800 hover:cursor-pointer">
             Browse all services
           </p>
           <Image src="/assets/arrow.svg" width={20} height={20} alt="arrow" className=" hidden mt-2 md:mt-0" />
