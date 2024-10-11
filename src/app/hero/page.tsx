@@ -4,6 +4,7 @@ import Button from "../components/button/Button";
 import Card from "../components/card/Card";
 import About from "../about/page";
 import Ourvets from "../ourVets/page";
+import Followus from "../followus/Followus";
 
 
 function Hero() {
@@ -181,7 +182,14 @@ function Hero() {
               <Button title={"Book an appointment"} className="text-base sm:text-lg lg:text-lg xl:text-xl px-4 sm:px-6 xl:px-8"/>
             </div>
           </div>
+          <div>
             <Ourvets/>
+          </div>
+            <div className="mt-20">
+
+            <Followus/>
+            </div>
+
         </div>
       </div>
     </>
